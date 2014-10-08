@@ -1,6 +1,6 @@
 {
   "name": "hapi-route-auto-reg",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Automatic registration for hapi routes",
   "main": "index.js",
   "scripts": {
@@ -29,6 +29,7 @@
     "should": "^3.3.1"
   },
   "dependencies": {
+    "chalk": "^0.5.1",
     "walk": "^2.3.1"
   }
 }
