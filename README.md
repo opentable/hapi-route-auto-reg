@@ -20,7 +20,7 @@ server.pack.register([
 // hapi v8.x
 server.register([
   {
-    plugin: require("hapi-route-auto-reg"),
+    register: require("hapi-route-auto-reg"),
     options: {
       directory: './path/to/routes'
     }
